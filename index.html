@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lusaka Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>    Lusaka Province Weather App</h1>
+        </header>
+
+        <div class="search">
+            <input type="text" id="city_input" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <main>
+            <section id="current-weather">
+                <div id="city_name">City: Kafue</div>
+                <div id="current_temp">Temperature: --°C</div>
+                <div id="weather_desc">Weather: --</div>
+                <div id="humidity">Humidity: --%</div>
+                <div id="wind_speed">Wind Speed: -- km/h</div>
+                <div id="weather_icon"></div>
+            </section>
+
+            <section id="forecast">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast" class="forecast-container"></div>
+            </section>
+        </main>
+
+        <footer>
+
+            <a href="https://www.icuzambia.net/sponsorship.php">ZRDC Link</a>
+            <a href="https://www.icuzambia.net/">ICU Link</a>
+
+
+            <p>Designed by Chikondi Mvula | SIN: 2309728370</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
